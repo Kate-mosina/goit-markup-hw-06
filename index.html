@@ -37,7 +37,13 @@
             <li><a href="" class="special-studio">Contacts</a></li>
           </ul>
         </nav>
-
+        <button
+          type="button"
+          class="mobile-menu-open"
+          aria-label="Open mobile menu"
+        >
+          <img src="./images/burger-menu.svg" alt="" width="24" height="24" />
+        </button>
         <address class="address-s">
           <ul class="address-inf">
             <li>
@@ -54,6 +60,74 @@
         </address>
       </div>
     </header>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <button
+        type="button"
+        class="mobile-menu-close"
+        aria-label="Close mobile menu"
+      >
+        <svg width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li>
+            <a href="#features" class="mobile-menu-link current">Features</a>
+          </li>
+          <li>
+            <a href="#team" class="mobile-menu-link">Team</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="mobile-menu-link">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-menu-bottom">
+        <address class="mobile-menu-address">
+          <a href="tel:+110001111111" class="mobile-menu-phone">
+            +11 (000) 111-11-11
+          </a>
+          <a href="mailto:info@devstudio.com" class="mobile-menu-email">
+            info@devstudio.com
+          </a>
+        </address>
+
+        <ul class="mobile-menu-socials">
+          <li>
+            <a href="#" class="mobile-menu-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mobile-menu-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mobile-menu-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mobile-menu-social-link">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <main>
       <section class="section section-one" id="hero">
@@ -130,6 +204,7 @@
               <img
                 class="photo-employee"
                 src="./images/img1.jpg"
+                srcset="./images/img1.jpg 1x, ./images/team-1.jpg 2x"
                 width="264"
                 height="260"
                 alt="a man with beard"
@@ -173,6 +248,7 @@
               <img
                 class="photo-employee"
                 src="./images/img2.jpg"
+                srcset="./images/img2.jpg 1x, ./images/team-2.jpg 2x"
                 width="264"
                 height="260"
                 alt="a man in a blue shirt"
@@ -216,6 +292,7 @@
               <img
                 class="photo-employee"
                 src="./images/img3.jpg"
+                srcset="./images/img3.jpg 1x, ./images/team-3.jpg 2x"
                 width="264"
                 height="260"
                 alt="a woman in a pink sweater"
@@ -259,6 +336,7 @@
               <img
                 class="photo-employee"
                 src="./images/img4.jpg"
+                srcset="./images/img4.jpg 1x, ./images/team-4.jpg 2x"
                 width="264"
                 height="260"
                 alt="a man in a gray t-shirt"
@@ -311,6 +389,7 @@
                 <img
                   class="s-photo"
                   src="./images/img1p.jpg"
+                  srcset="./images/img1p.jpg 1x, ./images/portfolio-1.jpg 2x"
                   alt="Banking App"
                   width="360"
                 />
@@ -332,6 +411,7 @@
                 <img
                   class="s-photo"
                   src="./images/img2p.jpg"
+                  srcset="./images/img2p.jpg 1x, ./images/portfolio-2.jpg 2x"
                   alt="Cashless Payment"
                   width="360"
                 />
@@ -353,6 +433,7 @@
                 <img
                   class="s-photo"
                   src="./images/img3p.jpg"
+                  srcset="./images/img3p.jpg 1x, ./images/portfolio-3.jpg 2x"
                   alt="Meditation App"
                   width="360"
                 />
@@ -375,6 +456,7 @@
                 <img
                   class="s-photo"
                   src="./images/img4p.jpg"
+                  srcset="./images/img4p.jpg 1x, ./images/portfolio-4.jpg 2x"
                   alt="Taxi Service"
                   width="360"
                 />
@@ -396,6 +478,7 @@
                 <img
                   class="s-photo"
                   src="./images/img5p.jpg"
+                  srcset="./images/img5p.jpg 1x, ./images/portfolio-5.jpg 2x"
                   alt="Screen Illustrations"
                   width="360"
                 />
@@ -417,6 +500,7 @@
                 <img
                   class="s-photo"
                   src="./images/img6p.jpg"
+                  srcset="./images/img6p.jpg 1x, ./images/portfolio-6.jpg 2x"
                   alt="Online Courses"
                   width="360"
                 />
