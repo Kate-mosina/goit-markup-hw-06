@@ -14,7 +14,7 @@
 
 .logo {
   display: block;
-  padding: 24px 0;
+  padding: 16px 0;
 }
 
 .logo-blue {
@@ -42,11 +42,6 @@
   padding: 0;
   border: none;
   background-color: transparent;
-}
-.mobile-menu-open img {
-  display: block;
-  width: 24px;
-  height: 24px;
 }
 @media (min-width: 768px) {
   .nav-list,
@@ -82,8 +77,13 @@
     margin: 0;
     padding: 0;
   }
+  .address-inf a {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
   .logo {
-    margin-right: 76px;
+    margin-right: 120px;
   }
 
   .special-studio {
@@ -122,10 +122,10 @@
 
   .address-inf a {
     color: #434455;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -142,5 +142,10 @@
   .address-inf {
     flex-direction: row;
     gap: 40px;
+  }
+  .address-inf a {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }

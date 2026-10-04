@@ -15,11 +15,12 @@
 .footer-info {
   max-width: 288px;
   margin-bottom: 72px;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-logo {
   display: inline-block;
+  margin: 0 auto 16px;
   margin-bottom: 16px;
   text-decoration: none;
   font-size: 18px;
@@ -187,12 +188,14 @@
     width: 264px;
     max-width: 264px;
     margin-right: 0px;
+    margin-bottom: 0;
     text-align: left;
   }
   .footer-subscribe-title {
     text-align: left;
   }
   .footer-socials-wrapper {
+    margin-bottom: 0;
     margin-right: 0;
     align-items: flex-start;
   }
@@ -204,6 +207,9 @@
   .footer-subscribe-form {
     flex-direction: row;
     gap: 24px;
+  }
+  .footer-subscribe-input {
+    width: 264px;
   }
 }
 @media (min-width: 1158px) {

@@ -19,7 +19,7 @@
 .portfolio-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 48px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -94,7 +94,8 @@
   .portfolio-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
 
   .portfolio-card {
@@ -103,6 +104,10 @@
   }
 }
 @media (min-width: 1158px) {
+  .section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .portfolio-list {
     gap: 48px 24px;
   }
