@@ -9,7 +9,7 @@
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .logo {
@@ -139,6 +139,9 @@
   }
 }
 @media (min-width: 1158px) {
+  .address-s {
+    margin-left: auto;
+  }
   .address-inf {
     flex-direction: row;
     gap: 40px;

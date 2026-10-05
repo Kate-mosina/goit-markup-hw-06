@@ -100,8 +100,8 @@
 }
 @media (min-width: 768px) {
   .section-three {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .team-list {
     flex-direction: row;
