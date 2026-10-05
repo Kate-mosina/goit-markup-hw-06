@@ -111,3 +111,9 @@
     row-gap: 64px;
   }
 }
+@media (min-width: 1158px) {
+  .section-three {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
